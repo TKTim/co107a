@@ -9,10 +9,9 @@
  */
 
 CHIP Not {
-    IN a, b;
+    IN in;
     OUT out;
 
     PARTS:
-    Nand(a = a, b = b, out = AnandB);
-    Nand(a = AnandB, b = AnandB, out = out);
+    Nand(a=in, b=in, out=out);
 }
