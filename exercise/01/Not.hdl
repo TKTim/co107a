@@ -13,5 +13,7 @@ CHIP Not {
     OUT out;
 
     PARTS:
-    // Put your code here:
+    // Nand{a = a , b = b , out = anandb};
+       Nand{a = anandb , b = anandb , out = out};
+    
 }
