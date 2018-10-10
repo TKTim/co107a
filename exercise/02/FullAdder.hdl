@@ -20,11 +20,11 @@ CHIP FullAdder {
     
     /*
     xor(a=a,b=b,out=xorab);
-    xor(a=xorab,b=c,out=carry);
+    xor(a=xorab,b=c,out=sum);
     and(a=a,b=b,out=ab);
     and(a=c,b=b,out=cb);
     and(a=c,b=a,out=ca);
     or(a=ab,b=cb,out=abORcb);
-    or(a=abORcb,b=ca,out=sum);
+    or(a=abORcb,b=ca,out=carry);
     */
 }
