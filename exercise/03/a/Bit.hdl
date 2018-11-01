@@ -17,5 +17,5 @@ CHIP Bit {
     // Put your code here:
     Mux(a=dffout, b=in, sel=load, out=muxout);
 	DFF(in=muxout, out=dffout); //out值會小一拍
-	Or(a=dffout, b=dffout, out=out);
+	Or(a=dffout, b=dffout, out=out); //out值儘量不與原始用詞相同
 }
