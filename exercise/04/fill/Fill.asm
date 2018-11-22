@@ -12,3 +12,18 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+
+@2
+M=0
+@0
+D=M
+@2
+M=M+D
+@1
+M=M-1
+@1
+D=M
+@2
+D;JGT
+@12
+0;JMP
